@@ -18,6 +18,7 @@ int main(void) {
 
     printf("x1: %d, y1: %d, c1: %d\n", x1, y1, c1);
     printf("•ÏXA");
+    printf("•ÏXB");
     return 0;
 }
 void draw_point (hword x, hword y, hword color) {
