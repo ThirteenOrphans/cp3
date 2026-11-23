@@ -15,6 +15,8 @@ int main(void) {
     hword c1 = BGR(0xFF, 0x1F, 0x1F);
 
     draw_point(x1, y1, c1);
+
+    printf("x1: %d, y1: %d, c1: %d\n", x1, y1, c1);
     return 0;
 }
 void draw_point (hword x, hword y, hword color) {
